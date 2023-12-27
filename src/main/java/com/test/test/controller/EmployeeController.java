@@ -15,8 +15,9 @@ import com.test.test.repository.EmployeeRepository;
 import com.test.test.model.Employee;
 
 
+@CrossOrigin
 @RestController
-@RequestMapping("/em")
+@RequestMapping("/")
 public class EmployeeController {
     @Autowired
     private EmployeeRepository employeeRepository;
